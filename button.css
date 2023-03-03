@@ -1,0 +1,85 @@
+.Primary{
+    
+    background-color: rgb(76, 9, 139);
+    border:none;
+    padding: 5px;
+    border-radius: 3px;
+    color:white;
+    width:70px;
+}
+.Primary:hover {
+    background-color:green;
+}
+.accent{
+    background-color: #2873b9;
+    border:none;
+    padding: 5px;
+    border-radius: 3px;
+    color:white;
+    width:70px;
+}
+.accent:hover {
+    background-color: blue;
+}
+.danger{
+    background-color: rgb(151, 19, 19);
+    border:none;
+    padding: 5px;
+    border-radius: 3px;
+    color:white;
+    width:70px;
+}
+.danger:hover {
+    background-color: rgb(84, 14, 14);
+}
+.Default{
+    width:70px;
+    background-color: rgb(207, 202, 202);
+    padding: 5px;
+    border-radius: 3px;
+    border:none;
+}
+.Default:hover {
+    background-color: rgb(100, 96, 96);
+}
+
+.large{
+    padding: 13px;
+    width: 70px;
+    border-radius: 4px;
+    border:none;
+    background-color: rgb(207, 202, 202);
+}
+.large:hover {
+    background-color:blueviolet;
+}
+.small{
+    border:none;
+    background-color: rgb(207, 202, 202);
+    border-radius: 4px;
+    padding: 5px;
+}
+.small:hover {
+    background-color: violet;
+}
+.pill{
+    border:none;
+    background-color: rgb(207, 202, 202);
+    border-radius: 11px;
+    padding: 5px;
+    width: 40px;
+}
+.pill:hover {
+    background-color: purple;
+}
+.custom{
+    border:none;
+    background-image:linear-gradient(to right,  rgb(82, 13, 146),rgb(52, 123, 199));
+    width:70px;
+    color:white;
+    padding: 5px;
+    border-radius: 4px;
+    }
+.custom:hover{
+    background-image:linear-gradient(to right,  rgb(143, 138, 147),rgb(11, 36, 63));
+}
